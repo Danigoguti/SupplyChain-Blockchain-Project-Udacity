@@ -1,3 +1,28 @@
+This repository contains an Ethereum DApp (Decentralized Application) that simulates a simplified software development supply chain. The process involves the following steps:
+
+The customer requests a new feature, providing a topic and description.
+The backoffice determines the price and sends an offer to the customer.
+The customer accepts the offer, allowing development to begin.
+The developer implements the feature and conducts a code review with the reviewer.
+After a successful review, the reviewer approves the feature for testing.
+The tester, upon successful testing, initiates the invoicing process.
+The backoffice sends the invoice to the customer.
+The customer pays for the new feature.
+
+GUI Description:
+The user interface is divided into 6 sections:
+
+Query feature information using a "Feature Id"
+Specify allowed addresses for specific roles
+(This section defines which Ethereum address has which role in the contract, serving as authorization)
+Create a new feature request
+Send the offer to the customer
+Execute individual steps in the workflow
+View history of executed transactions
+
+The GUI allows users to interact with the DApp, manage roles, and track the progress of feature development through various stages of the supply chain.
+
+
 # Supply chain & data auditing
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
